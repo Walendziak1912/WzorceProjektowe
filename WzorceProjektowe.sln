@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategie", "Strategie", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia_Kaczki", "Strategia_Kaczki\Strategia_Kaczki.csproj", "{671967CA-DB22-462A-BD05-573EE8626D4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia_Sortowanie", "Strategia_Sortowanie\Strategia_Sortowanie.csproj", "{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{671967CA-DB22-462A-BD05-573EE8626D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{671967CA-DB22-462A-BD05-573EE8626D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{671967CA-DB22-462A-BD05-573EE8626D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5537FAFD-CFE4-4440-9967-7B03D976935F} = {B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}
 		{671967CA-DB22-462A-BD05-573EE8626D4E} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
+		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C639A88-C228-4A7B-8CA1-9C421C2C8299}
