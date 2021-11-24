@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategia_Kaczki", "..\Strategia_Kaczki\Strategia_Kaczki.csproj", "{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategia", "Strategia", "{0D87E0F3-2C97-4BD1-B619-B6BE5D6B9610}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategia_Sortowanie", "..\Strategia_Sortowanie\Strategia_Sortowanie.csproj", "{433FE321-DE48-4F99-B727-AF86D87E6EAC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obserwator", "Obserwator", "{B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obserwator_Suchy", "Obserwator_Suchy\Obserwator_Suchy.csproj", "{5537FAFD-CFE4-4440-9967-7B03D976935F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obserwator_Suchy", "Obserwator_Suchy\Obserwator_Suchy.csproj", "{5537FAFD-CFE4-4440-9967-7B03D976935F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategie", "Strategie", "{0543DD1C-F2B7-476B-B890-9656D3C07E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia_Kaczki", "Strategia_Kaczki\Strategia_Kaczki.csproj", "{671967CA-DB22-462A-BD05-573EE8626D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{433FE321-DE48-4F99-B727-AF86D87E6EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{433FE321-DE48-4F99-B727-AF86D87E6EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{433FE321-DE48-4F99-B727-AF86D87E6EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{433FE321-DE48-4F99-B727-AF86D87E6EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5537FAFD-CFE4-4440-9967-7B03D976935F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5537FAFD-CFE4-4440-9967-7B03D976935F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5537FAFD-CFE4-4440-9967-7B03D976935F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5537FAFD-CFE4-4440-9967-7B03D976935F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671967CA-DB22-462A-BD05-573EE8626D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671967CA-DB22-462A-BD05-573EE8626D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671967CA-DB22-462A-BD05-573EE8626D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671967CA-DB22-462A-BD05-573EE8626D4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7B7D6CCE-1C3C-4039-AE8B-5BD4E41B5CED} = {0D87E0F3-2C97-4BD1-B619-B6BE5D6B9610}
-		{433FE321-DE48-4F99-B727-AF86D87E6EAC} = {0D87E0F3-2C97-4BD1-B619-B6BE5D6B9610}
 		{5537FAFD-CFE4-4440-9967-7B03D976935F} = {B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}
+		{671967CA-DB22-462A-BD05-573EE8626D4E} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C639A88-C228-4A7B-8CA1-9C421C2C8299}
