@@ -5,108 +5,108 @@ namespace Strategia_Kaczki
     /// <summary>
     /// Interfejsy odpowiedzialne za kwakanie i latanie
     /// </summary>
-    public interface IFlyBehavior
+    public interface ILatanie
     {
-        void Fly();
+        void Leć();
     }
-    public interface IQuackBehavior
+    public interface IKwakanie
     {
-        void Quack();
+        void Kwacz();
     }
     //klasy implementujące interfejsy latania  i kwakania
-    public class FlyWithWings : IFlyBehavior
+    public class OpcjaLatania : ILatanie
     {
-        public void Fly()
+        public void Leć()
         {
-            Console.WriteLine("I'm flying with my wings!");
+            Console.WriteLine("Latam bo mam skrzydła!");
         }
     }
-    public class FlyNoWay : IFlyBehavior
+    public class BrakOpcjiLatania : ILatanie
     {
-        public void Fly()
+        public void Leć()
         {
-            Console.WriteLine("I can't fly...");
+            Console.WriteLine("Nie potrafię latać");
         }
     }
-    public class QuackReal : IQuackBehavior
+    public class OpcjaKwakanie : IKwakanie
     {
-        public void Quack()
+        public void Kwacz()
         {
-            Console.WriteLine("Quack");
+            Console.WriteLine("Kwa Kwa Kwa");
         }
     }
-    public class QuackMute : IQuackBehavior
+    public class BrakOpcjKwakania : IKwakanie
     {
-        public void Quack()
+        public void Kwacz()
         {
             Console.WriteLine("...");
         }
     }
-    public class QuackSqueak : IQuackBehavior
+    public class OpcjaSyczenie : IKwakanie
     {
-        public void Quack()
+        public void Kwacz()
         {
-            Console.WriteLine("Squeak");
+            Console.WriteLine("ssss sss ss s");
         }
     }
     //klasa abstrakcyjna kaczki
-    public abstract class Duck
+    public abstract class Kaczka
     {
-        internal IFlyBehavior flyBehavior;
-        internal IQuackBehavior quackBehavior;
+        internal ILatanie zachowanieLatanie;
+        internal IKwakanie zachowanieKwakanie;
 
-        public abstract void Display();
+        public abstract void Wyświetl();
 
-        public void SetFlyBehavior(IFlyBehavior fb)
+        public void SetZachowanieLatanie(ILatanie fb)
         {
-            flyBehavior = fb;
+            zachowanieLatanie = fb;
         }
 
-        public void SetQuackBehavior(IQuackBehavior qb)
+        public void SetZachowanieKwakanie(IKwakanie qb)
         {
-            quackBehavior = qb;
+            zachowanieKwakanie = qb;
         }
 
-        public void PerformFly()
+        public void WywołajLatanie()
         {
-            flyBehavior.Fly();
+            zachowanieLatanie.Leć();
         }
 
-        public void PerformQuack()
+        public void WywołajKwakanie()
         {
-            quackBehavior.Quack();
+            zachowanieKwakanie.Kwacz();
         }
 
-        public void Swim()
+        public void Płyń()
         {
-            Console.WriteLine("All ducks float!");
+            Console.WriteLine("Wszystkie kaczki potrafią pływać!");
         }
     }
 
-    public class MallardDuck : Duck
+    public class DzikaKaczka : Kaczka
     {
-        public MallardDuck()
+        public DzikaKaczka()
         {
-            flyBehavior = new FlyWithWings();
-            quackBehavior = new QuackReal();
+            zachowanieLatanie = new OpcjaLatania();
+            zachowanieKwakanie = new OpcjaKwakanie();
         }
 
-        public override void Display()
+        public override void Wyświetl()
         {
-            Console.WriteLine("I'm a mallard!");
+            Console.WriteLine("Jestem dzika kaczka!");
         }
     }
-    public class RubberDuck : Duck
+    public class GumowaKaczka : Kaczka
     {
-        public RubberDuck()
+        public GumowaKaczka()
         {
-            flyBehavior = new FlyNoWay();
-            quackBehavior = new QuackSqueak();
+            zachowanieLatanie = new BrakOpcjiLatania();
+            zachowanieKwakanie = new OpcjaSyczenie();
         }
 
-        public override void Display()
+        public override void Wyświetl()
         {
-            Console.WriteLine("I am a rubber duckie.");
+            Console.WriteLine("Jestem gumowa kaczka");
         }
     }
 
@@ -114,11 +114,12 @@ namespace Strategia_Kaczki
     {
         static void Main(string[] args)
         {
-            Duck mallard = new MallardDuck();
-            mallard.PerformQuack();
-            mallard.PerformFly();
-            mallard.SetFlyBehavior(new FlyNoWay());
-            mallard.PerformFly();
+            Kaczka dzika = new DzikaKaczka();
+            dzika.Wyświetl();
+            dzika.WywołajKwakanie();
+            dzika.WywołajLatanie();
+            dzika.SetZachowanieLatanie(new BrakOpcjiLatania());
+            dzika.WywołajLatanie();
 
             Console.WriteLine("Koniec");
             Console.ReadKey();

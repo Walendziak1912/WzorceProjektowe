@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obserwator_Suchy", "Obserwa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategie", "Strategie", "{0543DD1C-F2B7-476B-B890-9656D3C07E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia_Kaczki", "Strategia_Kaczki\Strategia_Kaczki.csproj", "{671967CA-DB22-462A-BD05-573EE8626D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategia_Kaczki", "Strategia_Kaczki\Strategia_Kaczki.csproj", "{671967CA-DB22-462A-BD05-573EE8626D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia_Sortowanie", "Strategia_Sortowanie\Strategia_Sortowanie.csproj", "{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategia_Sortowanie", "Strategia_Sortowanie\Strategia_Sortowanie.csproj", "{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obserwator_YouTube", "Obserwator_YouTube\Obserwator_YouTube.csproj", "{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{5537FAFD-CFE4-4440-9967-7B03D976935F} = {B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}
 		{671967CA-DB22-462A-BD05-573EE8626D4E} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
 		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
+		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746} = {B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C639A88-C228-4A7B-8CA1-9C421C2C8299}
