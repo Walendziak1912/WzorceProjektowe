@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obserwator", "Obserwator", "{B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}"
 EndProject
@@ -14,6 +14,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategia_Sortowanie", "Strategia_Sortowanie\Strategia_Sortowanie.csproj", "{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obserwator_YouTube", "Obserwator_YouTube\Obserwator_YouTube.csproj", "{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dekorator", "Dekorator", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorLoggingExample", "DecoratorLoggingExample\DecoratorLoggingExample.csproj", "{A476844B-D4C8-4C11-BC10-14BF9E3F21A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionPattern", "OptionPattern", "{0C2F9150-8F25-4C27-9784-E26D7B8C7774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionPatternDatabaseExample", "OptionPatternDatabaseExample\OptionPatternDatabaseExample.csproj", "{91BCED48-11E7-40D0-B958-E640B99304E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,14 @@ Global
 		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A476844B-D4C8-4C11-BC10-14BF9E3F21A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A476844B-D4C8-4C11-BC10-14BF9E3F21A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A476844B-D4C8-4C11-BC10-14BF9E3F21A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A476844B-D4C8-4C11-BC10-14BF9E3F21A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BCED48-11E7-40D0-B958-E640B99304E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BCED48-11E7-40D0-B958-E640B99304E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BCED48-11E7-40D0-B958-E640B99304E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BCED48-11E7-40D0-B958-E640B99304E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +62,8 @@ Global
 		{671967CA-DB22-462A-BD05-573EE8626D4E} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
 		{6B3E1227-C9CE-4CDF-A526-7EF5DDD7CA4F} = {0543DD1C-F2B7-476B-B890-9656D3C07E74}
 		{CEB2B42C-4CC2-489B-A5FE-30FCA7F52746} = {B86E4AE1-AAA4-479C-9B1A-CEEB8C8A0333}
+		{A476844B-D4C8-4C11-BC10-14BF9E3F21A5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{91BCED48-11E7-40D0-B958-E640B99304E5} = {0C2F9150-8F25-4C27-9784-E26D7B8C7774}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C639A88-C228-4A7B-8CA1-9C421C2C8299}
