@@ -85,7 +85,40 @@ Projekt zawiera kompletny zestaw testów jednostkowych, które testują:
 - Testy dla serwisu płatności
 - Używanie mocków do testowania zależności
 - Weryfikacja, czy serwis wywołuje odpowiednie metody na bramkach płatności
+000,30232
+,,,
+3,3033,2003,0,03
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gn             bbbbbbbbbbbbbbbbbbbb
+
+00
 ### PaymentGatewayTests
 - Testy dla konkretnych implementacji bramek płatności (PayU, PayPal)
 - Sprawdzanie, czy metody wykonują się bez błędów
