@@ -37,6 +37,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResultPattern", "ResultPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultPattern", "ResultPattern\ResultPattern.csproj", "{896F5CE3-9A46-418C-9467-D738DF8D1715}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessModifiers", "AccessModifiers", "{93B8FEED-712B-4C7A-83BB-4912602756A1}"
+	ProjectSection(SolutionItems) = preProject
+		AccessModifiers\C#-Modyfikatory dostępu.png = AccessModifiers\C#-Modyfikatory dostępu.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
